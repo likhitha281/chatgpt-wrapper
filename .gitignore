@@ -1,0 +1,25 @@
+# For Windows PowerShell
+notepad .gitignore
+```
+
+Add this content to `.gitignore`:
+```
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+
+# API Keys (IMPORTANT!)
+.env
+config.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
